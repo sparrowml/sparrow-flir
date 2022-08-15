@@ -43,6 +43,7 @@
     "workspaceMount": "source=${localWorkspaceFolder},target=/code,type=bind,consistency=cached",
     "runArgs": [
         "--ipc=host",
+        "--env-file=.devcontainer/.env",
     ],
     "postCreateCommand": "pip install -e .",
 }
