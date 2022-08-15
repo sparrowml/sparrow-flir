@@ -59,4 +59,4 @@ endif
 
 .PHONY: publish
 publish: branchify
-	poetry publish --build --repository sparrow
+	poetry publish --build
